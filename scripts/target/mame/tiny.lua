@@ -17,6 +17,7 @@
 --------------------------------------------------
 
 CPUS["SH7709S"] = true
+CPUS["SH3COMN"] = true
 
 --------------------------------------------------
 -- Specify all the sound cores necessary for the
@@ -82,6 +83,7 @@ files{
 	MAME_DIR .. "src/mame/cave/cv1k_v_in.cpp",
 	MAME_DIR .. "src/mame/cave/cv1k_v_pixel.cpp",
 	MAME_DIR .. "src/mame/cave/cv1k_v.cpp",
+	MAME_DIR .. "src/mame/cave/cv1k_v.h",
 	MAME_DIR .. "src/mame/cave/cv1k.cpp",
 }
 end
